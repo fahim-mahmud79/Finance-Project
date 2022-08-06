@@ -1,0 +1,151 @@
+@media(max-width:700px){
+    img{
+        max-width: 100%;
+        margin: auto;
+
+    }
+    .nav{
+        flex-direction: column;
+        gap: 30px; 
+    }
+    .hero-block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .herobtn-one{
+        margin-bottom: 16px;
+    }
+    .hero-left h1{
+        font-size: 48px;
+        line-height: 1.2;
+    }
+    .hero-right img{
+        max-width: 100%;
+    }
+
+    .service-header p{
+        padding: 0 30px;
+    }
+    .all-boxes{
+        flex-direction: column;
+        padding: 0 24px;
+    }
+
+    .box{
+        border: 1px solid grey;
+        border-radius: 14px;
+    }
+
+    .mainuser{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-block{
+        text-align: center;
+    }
+
+    .right-block h2{
+        font-size: 40px;
+        padding: 0 20px;
+    }
+
+    .right-block p{
+        padding: 0 30px;
+        margin-top: 46px
+    }
+
+    .maintracking{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-track{
+        text-align: center;
+    }
+
+    .left-track h2{
+        font-size: 40px;
+        padding: 0 20px; 
+        margin-bottom: 40px;
+
+    }
+
+    .left-track p{
+        padding: 0 40px;
+    }
+    
+    .app{
+        padding: 20px 22px;
+        gap: 20px;
+        border-radius: 0; 
+    }
+
+    .app h2{
+        font-size: 2rem;
+    }
+
+    .app p{
+        padding: 0 50px;
+    }
+
+    .app img{
+        display: block;
+        margin: auto;
+        margin-top: 12px;
+    }
+
+    .parent-footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .left-child{
+        display: flex;
+        flex-direction: column;                               
+        text-align: center;
+        padding: 10px; 
+        margin-bottom: 40px;
+        max-width: 100%; 
+
+    }
+
+    .left-child h5{
+        text-align: center;
+        margin: 0; 
+        margin-top: 20px;
+        margin-bottom: 16px;
+
+    }
+
+    .options{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .opt{
+        text-align: center;
+    }
+    .last-div{
+        flex-direction: column;
+        align-items: center;
+        margin-top: -50px; 
+    }
+
+    .last-one{
+        margin-bottom: 20px; 
+    }
+
+    .footer-line{
+        margin-top: 30px;
+    }
+}
